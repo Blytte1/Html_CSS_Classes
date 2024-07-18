@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form>
+        <label for="campo_nome">Nome:</label>
+        <input id="campo_nome" type="text" placeholder="Digite seu nome aqui" required>
+        <br><br>
+        <label for="campo_senha">Senha:</label>
+        <input id="campo_senha" type="password" placeholder="Digite sua senha" required>
+        <br><br>
+        <label for="campo_email">E-mail:</label>
+        <input id="campo_email" type="email" placeholder="Digite seu email" required>
+        <br><br>
+       
+         <h3>Qual bichinho você deseja adotar:</h3>
+        
+         <input type="radio" id="dog" name="animal" value="cachorro">
+        <label for="dog">Catioro</label>
+        <br><br>
+        <input type="radio" id="ca" name="animal" value="Gatio">
+        <label for="cat">Gatio</label>
+        <br><br>
+        <input type="radio" id="bird" name="animal" value="Papagajo">
+        <label for="bird">Papagaio</label>
+        <br><br>
+        <input type="radio" id="hamster" name="animal" value="Hamster">
+        <label for="hamster">Hamsta</label>
+        <br><br>
+
+        <h3>Quais desses aparelhos você possui em casa?</h3>
+        <Br>
+        <input type="checkbox" id="tv" value="Televisão" name="item1">
+        <label for="tv">Teverisão</label>
+        <br><br>
+        <input type="checkbox" id="tv" value="rádio" name="item2">
+        <label for="tv">Rádio</label>
+        <br><br>
+        <input type="checkbox" id="microwave" value="Microwave"name="item3">
+        <label for="microwave">Microondas</label>
+        <br><br>
+        <input type="checkbox" id="refrigerator" value="Geladeira"name="item4">
+        <label for="item4">Geladeira</label>
+        <br><br>
+        <h3>Escolha uma cor</h3>
+        <select name="" id="">
+            <option selected disabled value="">Selecione uma cor</option>
+            <option value="verde">verde</option>
+            <option value="amarelo">amarelo</option>
+            <option value="azul">azul</option>
+            <option value="branco">branco</option>        
+        </select>
+        <br><br>
+        <h3>Por favor escreva-nos porque você gostaria de um bichinho.</h3>
+        <textarea name="message" id="message" placeholder="Digite aqui suas razões" rows="15" cols="60">Gostaria de adotar um bichinho porque...</textarea>
+        <br><br>
+        <input type="submit" value="Enviar Respostas do Formulario">
+    </form>
+</body>
+</html>
